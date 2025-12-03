@@ -1,0 +1,71 @@
+# Figures {#sec-figures}
+
+```{r} 
+#| label: 'set-rda-dir-figs'
+#| echo: false 
+#| warnings: false 
+#| eval: true
+figures_dir <- fs::path('C:/Users/samantha.schiano/Documents/GitHub/a11y-sandbox/asar-tagged-alttext', 'report', 'figures')
+``` 
+
+```{r} 
+#| label: 'fig-pop.naa-setup'
+#| echo: false 
+#| warnings: false 
+#| eval: true
+# load rda
+load(file.path(figures_dir, 'pop.naa_figure.rda'))
+
+# save rda with plot-specific name
+pop.naa_plot_rda <- rda
+
+# remove generic rda object
+rm(rda)
+
+# save figure, caption, and alt text as separate objects
+pop.naa_plot <- pop.naa_plot_rda$figure
+pop.naa_cap <- pop.naa_plot_rda$cap
+pop.naa_alt_text <- pop.naa_plot_rda$alt_text
+``` 
+
+```{r} 
+#| label: 'fig-pop.naa'
+#| echo: false 
+#| warning: false 
+#| fig-cap: !expr pop.naa_cap 
+#| fig-alt: !expr pop.naa_alt_text
+pop.naa_plot
+``` 
+
+```{r} 
+#| label: 'fig-spawning.biomass-setup'
+#| echo: false 
+#| warnings: false 
+#| eval: true
+# load rda
+load(file.path(figures_dir, 'spawning.biomass_figure.rda'))
+
+# save rda with plot-specific name
+spawning.biomass_plot_rda <- rda
+
+# remove generic rda object
+rm(rda)
+
+# save figure, caption, and alt text as separate objects
+spawning.biomass_plot <- spawning.biomass_plot_rda$figure
+spawning.biomass_cap <- spawning.biomass_plot_rda$cap
+spawning.biomass_alt_text <- spawning.biomass_plot_rda$alt_text
+``` 
+
+```{r} 
+#| label: 'fig-spawning.biomass'
+#| echo: false 
+#| warning: false 
+#| fig-cap: !expr spawning.biomass_cap 
+#| fig-alt: !expr spawning.biomass_alt_text
+spawning.biomass_plot
+``` 
+
+![My example figure produced from the cars data.](figures/generic_plot.png){#fig-generic_plot fig-alt="This is a scatterplot with points representing the relationship between speed (x-axis) and stopping distance (y-axis) of cars."}
+
+

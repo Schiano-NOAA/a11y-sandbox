@@ -1,9 +1,10 @@
 # Script for situation of a tagged asar report with no figures or tables
 
 #############
-# INfo
+# Info
 #############
 
+# Author: Samantha Schiano
 # Date: December 2, 2025
 # asar version: v1.5.2
 # stockplotr version: 0.6.0-beta
