@@ -1,3 +1,4 @@
+\input{accessibility.tex}
 % Options for packages loaded elsewhere
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
@@ -28,10 +29,10 @@
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
+% \IfFileExists{microtype.sty}{% use microtype if available
+%   \usepackage[]{microtype}
+%   \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+% }{}
 \makeatletter
 \@ifundefined{KOMAClassName}{% if non-KOMA class
   \IfFileExists{parskip.sty}{%
@@ -239,7 +240,7 @@
 
 \title{Stock Assessment Report Template}
 \author{FIRST LAST}
-\date{2025-12-02}
+\date{2025-12-03}
 \begin{document}
   \begin{titlepage}
   % This is a combination of Pandoc templating and LaTeX
@@ -335,7 +336,7 @@
 \pdfbookmark[1]{Table of Contents}{toc}
 \renewcommand*\contentsname{Table of contents}
 {
-\hypersetup{linkcolor=}
+\hypersetup{linkcolor=.}
 \setcounter{tocdepth}{3}
 \tableofcontents
 }
@@ -482,7 +483,7 @@ remotes::install\_github(`nmfs-ost/stockplotr') to add premade tables.
 
 \centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{SAR_species_skeleton_files/figure-pdf/fig-pop.naa-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio,alt="Abundance at age plot alt text here."]{SAR_species_skeleton_files/figure-pdf/fig-pop.naa-1.png}}
 
 }
 
@@ -496,7 +497,7 @@ indicates the relative abundance in that category compared with others.}
 
 \centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{SAR_species_skeleton_files/figure-pdf/fig-spawning.biomass-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio,alt="Biomass timeseries plot alternative text here."]{SAR_species_skeleton_files/figure-pdf/fig-spawning.biomass-1.png}}
 
 }
 
@@ -511,11 +512,12 @@ spawning stock biomass associated with the biomass limit reference point
 
 \centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{figures/generic_plot.png}}
+\pandocbounded{\includegraphics[keepaspectratio,alt="generic inserted plot alt text here."]{figures/generic_plot.png}}
 
 }
 
-\caption{\label{fig-generic_plot}Your caption here}
+\caption{\label{fig-generic_plot}My example figure produced from the
+cars data.}
 
 \end{figure}%
 
