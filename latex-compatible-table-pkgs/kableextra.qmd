@@ -1,0 +1,20 @@
+---
+title: "kableExtra"
+format: pdf
+keep-tex: true
+---
+
+## KableExtra tables
+
+```{r}
+#| echo: false
+#| tbl-cap: Table produced from kableExtra::kable.
+kableExtra::kable(tidyr::table2)
+```
+
+```{r}
+#| echo: false
+#| tbl-cap: Table produced from kableExtra::kbl.
+kableExtra::kbl(tidyr::table2)
+```
+

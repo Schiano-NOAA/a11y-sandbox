@@ -104,13 +104,15 @@ for (i in seq_along(imgs)) {
     )
   }
 }
+# Couldn't get the above to work -- see README -- saved as png through adobe acrobat
 
 # Step 3: add tagging ----
 # add tagging to document and test compilation
 withr::with_dir(
   file.path(getwd(), "report"),
   add_tagging(
-    rename = "tagged_report_no_figs_tabs",
-    compile = TRUE
+    compile = TRUE,
+    rename = "alttext_and_tagged"
   )
 )
+

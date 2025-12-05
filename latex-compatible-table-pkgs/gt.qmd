@@ -1,0 +1,14 @@
+---
+title: "gt"
+format: pdf
+keep-tex: true
+---
+
+## gt R package test
+
+```{r}
+#| echo: false
+#| tbl-cap: Table produced from gt R package.
+gt::gt(tidyr::table2)
+```
+

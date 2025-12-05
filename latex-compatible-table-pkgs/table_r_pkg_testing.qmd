@@ -1,0 +1,75 @@
+---
+title: "R Table Package Testing"
+format: pdf
+keep-tex: true
+---
+
+# Compatability of tables produced from R packages and quarto-->pandoc-->latex conversions
+
+Comparisons of the translated tables created from the following R packages in a quarto doc:
+- `gt`
+- `kableExtra`
+- `flextable`
+
+We know that `kableExtra` has functions to format a table to latex, but I am not
+sure the table that is visualized in an R chunk gets translated the same. We also
+know that `flextable` tables rendered in a quarto doc can not be tagged and contain
+misc. extra formatting (according to Gemini). The formatting from `flextable` is 
+also very difficult to manually read and debug.
+
+I know nothing of `gt` tables.
+
+## Testing
+
+Example data: tidyr::table2
+
+```{r}
+#| echo: false
+exdat <- tidyr::table2
+```
+
+### Make tables from example data (unformatted)
+
+#### `gt`
+
+```{r}
+#| echo: false
+#| tbl-cap: Table produced from gt R package.
+gt::gt(exdat)
+```
+
+
+#### `kableExtra`
+
+```{r}
+#| echo: false
+#| tbl-cap: Table produced from kableExtra::kable.
+kableExtra::kable(exdat)
+```
+
+```{r}
+#| echo: false
+#| tbl-cap: Table produced from kableExtra::kbl.
+kableExtra::kbl(exdat)
+```
+
+
+#### `flextable`
+
+```{r}
+#| echo: false
+#| tbl-cap: Table produced from flextable.
+flextable::flextable(exdat)
+```
+
+**Note:** On first render, the tables are placed out of order and in random sections.
+
+## Results
+
+
+## Efforts for a solution
+
+
+**Final Note:**
+
+

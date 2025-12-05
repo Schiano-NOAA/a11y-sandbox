@@ -1,0 +1,14 @@
+---
+title: "flextable"
+format: pdf
+keep-tex: true
+---
+
+## Flextable R package
+
+```{r}
+#| echo: false
+#| tbl-cap: Table produced from flextable.
+flextable::flextable(tidyr::table2)
+```
+
