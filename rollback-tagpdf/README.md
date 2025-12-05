@@ -21,7 +21,7 @@ new versions of this function
 ## Efforts to remedy the issue
 
 - Rollback version using one of the option from: `tinytex::tlmgr("restore tagpdf")`
-- No previous versions found (I am guessing since an oficial release hasn't been 
+- No previous versions found (I am guessing since an official release hasn't been 
 put out and they are all just "tags" in the repo)
 
 ```

@@ -1,7 +1,6 @@
 \input{accessibility.tex}
 \input{accessibility.tex}
 \input{accessibility.tex}
-\input{accessibility.tex}
 % Options for packages loaded elsewhere
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
@@ -31,10 +30,10 @@
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% % % % \IfFileExists{microtype.sty}{% use microtype if available
-% % % %   \usepackage[]{microtype}
-% % % %   \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-% % % % }{}
+% % % \IfFileExists{microtype.sty}{% use microtype if available
+% % %   \usepackage[]{microtype}
+% % %   \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+% % % }{}
 \makeatletter
 \@ifundefined{KOMAClassName}{% if non-KOMA class
   \IfFileExists{parskip.sty}{%
@@ -110,13 +109,6 @@
  
 
 
-\usepackage{booktabs}
-\usepackage{caption}
-\usepackage{longtable}
-\usepackage{colortbl}
-\usepackage{array}
-\usepackage{anyfontsize}
-\usepackage{multirow}
 \KOMAoption{captions}{tableheading}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
@@ -163,7 +155,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={gt},
+  pdftitle={custom latex table},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -172,39 +164,40 @@
   pdfcreator={LaTeX via pandoc}}
 
 
-% \title{gt}
+% \title{custom latex table}
 % \author{}
 % \date{}
 \begin{document}
 % \maketitle
 
 
-\subsection{gt R package test}\label{gt-r-package-test}
+\subsection{Latex table function being developed in
+\{stockplotr\}}\label{latex-table-function-being-developed-in-stockplotr}
 
 \tagpdfsetup{table/header-rows={1}} 
-\begin{table}
-\caption{Table produced from gt R package.}\tabularnewline
+\begin{center}
+\captionof{table}{This is the caption for a customized table.}
+\label{custom_tab}
 
-\fontsize{12.0pt}{14.4pt}\selectfont
-\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrlr}
+\begin{tabular}{lrlr}
 \toprule
-country & year & type & count \\ 
-\midrule\addlinespace[2.5pt]
-Afghanistan & 1999 & cases & 745 \\ 
-Afghanistan & 1999 & population & 19987071 \\ 
-Afghanistan & 2000 & cases & 2666 \\ 
-Afghanistan & 2000 & population & 20595360 \\ 
-Brazil & 1999 & cases & 37737 \\ 
-Brazil & 1999 & population & 172006362 \\ 
-Brazil & 2000 & cases & 80488 \\ 
-Brazil & 2000 & population & 174504898 \\ 
-China & 1999 & cases & 212258 \\ 
-China & 1999 & population & 1272915272 \\ 
-China & 2000 & cases & 213766 \\ 
-China & 2000 & population & 1280428583 \\ 
+country & year & type & count\\
+\midrule
+Afghanistan & 1999 & cases & 745\\
+Afghanistan & 1999 & population & 19987071\\
+Afghanistan & 2000 & cases & 2666\\
+Afghanistan & 2000 & population & 20595360\\
+Brazil & 1999 & cases & 37737\\
+Brazil & 1999 & population & 172006362\\
+Brazil & 2000 & cases & 80488\\
+Brazil & 2000 & population & 174504898\\
+China & 1999 & cases & 212258\\
+China & 1999 & population & 1272915272\\
+China & 2000 & cases & 213766\\
+China & 2000 & population & 1280428583\\
 \bottomrule
-\end{tabular*}
-\end{table}
+\end{tabular}
+\end{center}
 
 
 

@@ -1,0 +1,25 @@
+# Tables {#sec-tables}
+ 
+```{r}
+#| tbl-cap: Landings over time for example data by fleet. Subset for only 10 years.
+#| echo: false
+exdat <- readRDS("~/GitHub/a11y-sandbox/asar-all-elements/report/exdat.rds")
+library(gt)
+library(kableExtra)
+# filter data for landings
+landings <- exdat |>
+  dplyr::filter(
+    grepl("landings_observed", label),
+    year > 2010,
+    # year < 2026,
+    !is.na(estimate)
+  ) |>
+  dplyr::select(year, fleet, estimate) |>
+  tidyr::pivot_wider(
+    names_from = fleet,
+    values_from = estimate
+  )
+# gt(landings)
+kable(landings)
+```
+

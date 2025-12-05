@@ -4,7 +4,7 @@
 ## Test
 
 - create {asar} template containing figures from and not from {stockplotr} along 
-with a table made from `flextable`
+with a table made from `gt` (code used from stockplotr but not live)
 
 
 ## Results

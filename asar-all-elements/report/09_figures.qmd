@@ -1,0 +1,41 @@
+# Figures {#sec-figures}
+ 
+```{r} 
+#| label: 'set-rda-dir-figs'
+#| echo: false 
+#| warnings: false 
+#| eval: true
+figures_dir <- fs::path('C:/Users/samantha.schiano/Documents/GitHub/a11y-sandbox/asar-all-elements', 'report', 'figures')
+``` 
+
+```{r} 
+#| label: 'fig-biomass-setup'
+#| echo: false 
+#| warnings: false 
+#| eval: true
+# load rda
+load(file.path(figures_dir, 'biomass_figure.rda'))
+
+# save rda with plot-specific name
+biomass_plot_rda <- rda
+
+# remove generic rda object
+rm(rda)
+
+# save figure, caption, and alt text as separate objects
+biomass_plot <- biomass_plot_rda$figure
+biomass_cap <- biomass_plot_rda$cap
+biomass_alt_text <- biomass_plot_rda$alt_text
+``` 
+
+```{r} 
+#| label: 'fig-biomass'
+#| echo: false 
+#| warning: false 
+#| fig-cap: !expr biomass_cap 
+#| fig-alt: !expr biomass_alt_text
+biomass_plot
+``` 
+
+![Your caption here](figures/generic_plot.png){#fig-generic_plot}
+

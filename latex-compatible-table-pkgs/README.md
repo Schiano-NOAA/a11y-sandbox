@@ -23,11 +23,14 @@ I know nothing of `gt` tables.
 
 - :check `gt` table package was able to be tagged and produced a readable 
   translated table in the latex document
+    - a gt table does not pass adobe accessibility checks as the headers are not properly tagged
+    - the table does have formatting for a float which caused formatting issues
 - :check `kableExtra::kable` produced a tagged table that was visible in the 
   broad tagging structure
+  - has similar header tagging issues in adobe accessibility checker
 - :check `kableExtra::kbl` produced a tagged table that was hidden in the tagging
   outline within a couple additional drop downs -- I do not know if this makes a difference
-- `flextable` does *NOT* produce a tagged document. The tranlated table to the 
+- `flextable` does *NOT* produce a tagged document. The translated table to the 
   latex file is not legible without AI. The following error is produced when 
   attempting to run with \\tagpdf added:
   

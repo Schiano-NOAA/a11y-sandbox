@@ -1,0 +1,80 @@
+---
+title: "custom latex table"
+format: pdf
+keep-tex: true
+---
+
+## Latex table function being developed in {stockplotr}
+
+```{r}
+#| include: false
+#| echo: false
+#| eval: false
+create_latex_table <- function(data,
+                         caption,
+                         label) {
+
+  
+  latex_tbl <- knitr::kable(data, 
+                            format = "latex", 
+                            booktabs = TRUE,
+                            linesep = "")
+  
+  # add number of header rows
+  nheaders <- 1
+  
+  init_line <- paste0("\\tagpdfsetup{table/header-rows={", nheaders, "}}")
+
+  # add caption, label
+  cap <- paste0("\\captionof{table}{", caption, "}\n")
+  lab <- paste0("\\label{", label, "}\n")
+  
+  # put together table
+  table <- paste0(init_line,
+                  "\n",
+                  "\\begin{center}\n",
+                  cap,
+                  lab,
+                  latex_tbl,
+                  "\n",
+                  "\\end{center}")
+  
+  table
+}
+```
+
+```{r}
+#| echo: false
+#| tbl-cap: This is the caption for a customized table.
+#| eval: false
+cat(create_latex_table(
+  tidyr::table2,
+  "This is the caption for a customized table.",
+  label = "custom_tab"
+  ))
+```
+
+<!-- \tagpdfsetup{table/header-rows={1}} -->
+\begin{center}
+\captionof{table}{This is the caption for a customized table.}
+\label{custom_tab}
+
+\begin{tabular}{lrlr}
+\toprule
+country & year & type & count\\
+\midrule
+Afghanistan & 1999 & cases & 745\\
+Afghanistan & 1999 & population & 19987071\\
+Afghanistan & 2000 & cases & 2666\\
+Afghanistan & 2000 & population & 20595360\\
+Brazil & 1999 & cases & 37737\\
+Brazil & 1999 & population & 172006362\\
+Brazil & 2000 & cases & 80488\\
+Brazil & 2000 & population & 174504898\\
+China & 1999 & cases & 212258\\
+China & 1999 & population & 1272915272\\
+China & 2000 & cases & 213766\\
+China & 2000 & population & 1280428583\\
+\bottomrule
+\end{tabular}
+\end{center}
