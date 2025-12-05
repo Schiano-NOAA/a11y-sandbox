@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  5 DEC 2025 14:14
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  5 DEC 2025 16:41
  restricted system commands enabled.
-**C:/Users/samantha.schiano/Documents/GitHub/a11y-sandbox/latex-compatible-table-pkgs/gt_tagged.tex
-(c:/Users/samantha.schiano/Documents/GitHub/a11y-sandbox/latex-compatible-table-pkgs/gt_tagged.tex
+**gt_tagged.tex
+(./gt_tagged.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
@@ -228,7 +228,7 @@ Package: pdfmanagement-firstaid 2025-11-12 v0.96x LaTeX PDF management bundle / 
 
 Package pdfmanagement Info: loading pdfmanagement firstaid code for pgf
 
-)) (./accessibility.tex) (./accessibility.tex) (./accessibility.tex)
+))
 Inserting `markspaces' in `pre_linebreak_filter'.
 Inserting `markspaces' in `hpack_filter'. (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2025/12/01 v3.49 KOMA-Script document class (article)
@@ -677,7 +677,7 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \c@LT@chunks=\count350
 \LT@p@ftn=\toks24
 )
-Class scrartcl Info: longtable captions redefined on input line 74.
+Class scrartcl Info: longtable captions redefined on input line 71.
 (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen165
@@ -915,30 +915,30 @@ Lua function __luamml_amsmath_save_tag_with_struct_elem:N = 55
 Lua function __luamml_amsmath_set_tag: = 56)) (./gt_tagged.aux)
 \openout1 = gt_tagged.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
 Inserting `tagpdf' in `pre_shipout_filter'.
 Inserting `tagpdf' in `pre_shipout_filter'.
-Package scrbase Info: activating english \abstractname on input line 178.
-Package scrbase Info: activating english \partname on input line 178.
+Package scrbase Info: activating english \abstractname on input line 175.
+Package scrbase Info: activating english \partname on input line 175.
 
 Package scrartcl Warning: Activated tagging detected but not supported!
 (scrartcl)                Note: This class currently does not actively support
@@ -951,13 +951,13 @@ Package scrartcl Warning: Activated tagging detected but not supported!
 (scrartcl)                  \DocumentMetadata{...}
 (scrartcl)                to avoid automatic activation of tagging.
 
-Package scrbase Info: activating english \figurename on input line 178.
-Package scrbase Info: activating english \tablename on input line 178.
-Package scrbase Info: activating english \contentsname on input line 178.
-Package scrbase Info: activating english \listfigurename on input line 178.
-Package scrbase Info: activating english \listtablename on input line 178.
-Package scrbase Info: activating english \refname on input line 178.
-Package scrbase Info: activating english \indexname on input line 178.
+Package scrbase Info: activating english \figurename on input line 175.
+Package scrbase Info: activating english \tablename on input line 175.
+Package scrbase Info: activating english \contentsname on input line 175.
+Package scrbase Info: activating english \listfigurename on input line 175.
+Package scrbase Info: activating english \listtablename on input line 175.
+Package scrbase Info: activating english \refname on input line 175.
+Package scrbase Info: activating english \indexname on input line 175.
 (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -965,19 +965,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 178.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 178.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 178.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 178.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 178.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 178.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 178.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 175.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -1005,7 +1005,7 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 178.
+(Font)              scaled to size 10.95pt on input line 175.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -1041,15 +1041,15 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 178.
+(Font)              scaled to size 10.95pt on input line 175.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 178.
+(Font)              `operators' in the math version `normal' on input line 175.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 178.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 175.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 178.
+(Font)              `operators' in the math version `bold' on input line 175.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 178.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 175.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -1085,13 +1085,13 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 178.
+(Font)              `symbols' in the math version `normal' on input line 175.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 178.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 175.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 178.
+(Font)              `symbols' in the math version `bold' on input line 175.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 178.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 175.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -1127,38 +1127,38 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 178.
+(Font)              `largesymbols' in the math version `normal' on input line 175.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 178.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 175.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 178.
+(Font)              `largesymbols' in the math version `bold' on input line 175.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 178.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 175.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 178.
+(Font)              scaled to size 7.665pt on input line 175.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 178.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 178.
+(Font)              scaled to size 5.475pt on input line 175.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 175.
 (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 178.
+(Font)              scaled to size 10.95pt on input line 175.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 178.
+(Font)              scaled to size 7.665pt on input line 175.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 178.
+(Font)              scaled to size 5.475pt on input line 175.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 178.
+(Font)              scaled to size 10.95pt on input line 175.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 178.
+(Font)              scaled to size 7.665pt on input line 175.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 178.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 178.
+(Font)              scaled to size 5.475pt on input line 175.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 175.
 (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 178.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 175.
 (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1166,43 +1166,62 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 178.
+Package hyperref Info: Link coloring OFF on input line 175.
 \g__math_luamml_iow=\write3
 
 \openout3 = gt_tagged-luamml-mathml.html
 
 Package tagpdf Info: luamml has been enabled and will create an MathML file.
 
-Floatstructure:7
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 189.
+(Font)              scaled to size 14.4pt on input line 177.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 189.
+(Font)              scaled to size 10.0pt on input line 177.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 189.
+(Font)              scaled to size 7.0pt on input line 177.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 189.
+(Font)              scaled to size 14.4pt on input line 177.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 189.
+(Font)              scaled to size 10.0pt on input line 177.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 189.
+(Font)              scaled to size 7.0pt on input line 177.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 189.
+(Font)              scaled to size 14.4pt on input line 177.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 189.
+(Font)              scaled to size 10.0pt on input line 177.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 189.
-[1{c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              scaled to size 7.0pt on input line 177.
+Floatstructure:12
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 186.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 186.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 186.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 186.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 186.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 186.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 186.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 186.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 186.
+[1
 
-]<<latex-list-css.html>><<latex-align-css.html>> (./gt_tagged.aux)
+
+{c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]<<latex-list-css.html>><<latex-align-css.html>> (./gt_tagged.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
  ***********
 
 Package tagpdf Info: Finalizing the tagging structure:
-(tagpdf)             Writing out ~79 structure objects
-(tagpdf)             with ~59 'MC' leaf nodes.
+(tagpdf)             Writing out ~84 structure objects
+(tagpdf)             with ~64 'MC' leaf nodes.
 (tagpdf)             Be patient if there are lots of objects!
 
 Package tagpdf Info: writing ParentTree
@@ -1215,19 +1234,19 @@ Package tagpdf Info: writing Root
 )
 
 Here is how much of LuaTeX's memory you used:
- 29776 strings out of 476081
+ 29797 strings out of 476081
  100000,1648299 words of node,token memory allocated
  592 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 2 glyph, 12 attribute, 69 glue_spec, 8 attribute_list, 1 write nodes
-   avail lists: 1:2,2:1129,3:519,4:42,5:165,6:6,7:2104,8:1,9:515,10:3,11:72
- 51628 multiletter control sequences out of 65536+600000
- 60 fonts using 18785235 bytes
- 108i,9n,114p,11314b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf>
-Output written on gt_tagged.pdf (1 page, 36599 bytes).
+   avail lists: 1:3,2:1194,3:473,4:40,5:113,6:10,7:1371,8:3,9:332,10:3,11:46
+ 51663 multiletter control sequences out of 65536+600000
+ 80 fonts using 26527127 bytes
+ 108i,9n,114p,11230b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf>
+Output written on gt_tagged.pdf (2 pages, 36253 bytes).
 
-PDF statistics: 153 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 5 named destinations out of 1000 (max. 131072)
- 524 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 163 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
+ 6 named destinations out of 1000 (max. 131072)
+ 549 words of extra memory for PDF output out of 10000 (max. 100000000)
 

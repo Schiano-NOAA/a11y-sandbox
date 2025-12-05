@@ -24,6 +24,12 @@ I know nothing of `gt` tables.
 - :check `gt` table package was able to be tagged and produced a readable 
   translated table in the latex document
     - a gt table does not pass adobe accessibility checks as the headers are not properly tagged
+    - the header issue can be solved by adding the following line before the start of the table:
+    
+    ```
+    \tagpdfsetup{table/header-rows={1}} 
+    ```
+    
     - the table does have formatting for a float which caused formatting issues
 - :check `kableExtra::kable` produced a tagged table that was visible in the 
   broad tagging structure
