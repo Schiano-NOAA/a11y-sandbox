@@ -1,0 +1,33 @@
+\contentsline {section}{\numberline {1}Executive Summary}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Assessment Model}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Reference Points, Stock Status, and Projections}{4}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Introduction}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Stock ID}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Management History}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Fishery Descriptions}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Ecosystem Considerations}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Data}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Life History}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Catch}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Indices and Standardization}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Composition Data}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Absolute Abundance}{6}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Environmental/Ecosystem Indicator Data}{6}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Assessment}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Current Modeling Approach}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Configuration of the Base Model}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Bridging}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Modeling Results}{8}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Parameter Estimates}{8}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Time Series}{8}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Model Fits}{8}{subsubsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.4}Model Diagnostics}{8}{subsubsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.5}Sensitivity Analyses}{9}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Management Benchmarks}{10}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Projections}{11}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Discussion}{12}{section.5}%
+\contentsline {section}{\numberline {6}Acknowledgements}{13}{section.6}%
+\contentsline {section}{\numberline {7}References}{14}{section.7}%
+\contentsline {section}{\numberline {8}Tables}{15}{section.8}%
+\contentsline {section}{\numberline {9}Figures}{16}{section.9}%
+\contentsline {section}{\numberline {A}Appendices}{17}{appendix.A}%

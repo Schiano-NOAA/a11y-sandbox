@@ -40,7 +40,33 @@ Relevant link: https://quarto.org/docs/output-formats/pdf-basics.html#document-c
 
 ## Test
 
+### asar document class = article
 
+- created blank asar template and edited the yaml so that the document class is article
+- there were some odd things going on in the console, but it worked fine
+- the font looks different though (just a note)
+- after add_tagging (document output = "article_tagged.pdf") it worked fine with only warnings for the glossary
+
+
+```
+Warning: Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 346.
+Warning: Package glossaries Warning: Empty glossary for \printnoidxglossary[type={acronym}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 346.
+✔ ______Compiling finished______
+```
+
+### asar document class = report
+
+- used same blank asar template and edited the yaml so that the document class is report
+- there were some odd things going on in the console, but it worked fine
+- the font looks different though (just a note)
+- after add_tagging (document output = "report_tagged.pdf"), 
+- report labels each child doc as a chapter instead od numbered
+
+```
+Warning: Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 346.
+Warning: Package glossaries Warning: Empty glossary for \printnoidxglossary[type={acronym}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 346.
+✔ ______Compiling finished______
+```
 
 ## Results
 
