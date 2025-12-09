@@ -11,7 +11,9 @@ Each folder contains a different situation for testing. To navigate, click on th
 folder and read the README filter within the folder to understand the test, date, 
 and findings.
 
-## Current Findings [Dec. 8, 2025]
+## Current Findings 
+
+### [Dec. 8, 2025]
 
 - Documents CAN be successfully tagged with both tables and figures excluding tables made from {flextable}
 - Of the tested packages (gt, flextable, kableExtra), {flextable} is currently NOT compatible with tagging in LaTeX documents
