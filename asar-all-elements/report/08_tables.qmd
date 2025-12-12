@@ -3,6 +3,7 @@
 ```{r}
 #| tbl-cap: Landings over time for example data by fleet. Subset for only 10 years.
 #| echo: false
+#| tbl-pos: 'h!'
 exdat <- readRDS("~/GitHub/a11y-sandbox/asar-all-elements/report/exdat.rds")
 library(gt)
 library(kableExtra)

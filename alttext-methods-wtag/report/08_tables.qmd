@@ -1,0 +1,31 @@
+# Tables {#sec-tables}
+ 
+```{r}
+#| tbl-cap: This  is my cool caption for a gt table.
+#| label: tbl-landgt
+#| echo: false
+#| tbl-pos: 'h!'
+landings <- output |> 
+  dplyr::filter(grepl("landings", label)) |>
+  dplyr::select(label, year, estimate, fleet) |>
+  head()
+
+gt::gt(landings)
+```
+
+```{r}
+#| tbl-cap: This  is my cool caption for a kable table.
+#| label: tbl-landkable
+#| echo: false
+#| tbl-pos: 'h!'
+kableExtra::kable(landings)
+```
+
+```{r}
+#| tbl-cap: This  is my cool caption for a kbl table.
+#| label: tbl-landkbl
+#| echo: false
+#| tbl-pos: 'h!'
+kableExtra::kbl(landings)
+```
+
