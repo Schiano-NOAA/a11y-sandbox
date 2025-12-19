@@ -13,6 +13,12 @@ and findings.
 
 ## Current Findings 
 
+### [Dec 19, 2025]
+
+- Accessibility functions have been used by the NWFSC and tested; they say they are working well, but we have run into a couple issues:
+    - cover page image is incorrectly added (used pdftooltip) -- pushed HOTFIX to fix this issue. Should be working now.
+    - alt text is not added to figures when options changing the size of figures is set in a quarto chunk. The add_alttext function was changed to instead of removing lines that don't have pandocbounded or pdftooltip, but just id the artifact line and removed that. This change is not extensively tested, so users should continue to report bugs.
+
 ### [Dec. 8, 2025]
 
 - Documents CAN be successfully tagged with both tables and figures excluding tables made from {flextable}
