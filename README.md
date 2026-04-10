@@ -41,3 +41,15 @@ and findings.
 > "The tagging has been improved and automated over time in sync with improvements and new features in the LATEX kernel, the latex-lab bundle and the PDF management code and is now much better. Only a few structures—mostly some from currently unsupported packages— still need manual tagging. But sadly the output of the validators don't quite reflect the improvements. The documentation uses now PDF 2.0 and while the newest PAC 2024 can at least open the file it can not validate properly the file. It doesn’t fully supports PDF 2.0 (see figure 1). It also complains about the tabular header cells as it doesn’t follow attribute classes, see figure 2. **The Adobe validator has a bug and doesn't like the (valid) use of the Lbl tag for numbers outside lists and so complains about the tagging of the table of content entries (see figure 3).**"
 
 - Table captions may also fail the Tables / "Regularity" test, if they are tagged as "TR" (table row). Regularity means that each column in a table contains the same number of rows, and vice versa. To fix this manually within Adobe, change the caption's tag from TR to Caption. 
+
+# Planned Testing
+
+- Working example using [widow rockfish assessment](https://github.com/Schiano-NOAA/widow_rockfish_2025/tree/flextable_to_gt)
+- Test why the tabel caption in widow assessment is tagged as a header instead of caption
+- Test all previous testing using Quarto v1.9
+  * Basic quarto doc with flextable, gt, kable, and kableExtra tables
+  * Basic asar document
+  * Impacts of version to asar and incorporating the new features into asar default formatting (document the pros and cons of each method)
+  * Test impacts of using add_accessibility with the Quarto v1.9 a11y features
+  * Test images loaded in as jgp and jpeg along with adding alt text in "[]"" and at the end of the line in "{}"
+  * Test impacts of using add_accessibility with the Quarto v1.9 a11y features
