@@ -1,0 +1,41 @@
+---
+title: "gt formatted table"
+format: pdf
+output-file: gt_formatted_table
+keep-tex: true
+---
+
+## Quarto
+
+Apply formatting options mimicing those found in the widow rockfish assessment report (2026). Some table lables are being marked as repeated in the tagging process along with the tags for the tables are not labelling the caption as caption but as a second table header.
+
+Testing currently on Quarto v1.8.25 (`quarto::quarto_version()`) and gt v1.3.0 (`packageVersion('gt')`).
+
+```{r}
+#| label: tbl-format-gt
+#| tbl-cap: "This is a basic caption for the table."
+#| echo: false
+cars |>
+gt::gt() |>
+gt::tab_options(
+            table.font.size = "10",
+            latex.use_longtable = TRUE,
+            latex.header_repeat = TRUE
+        ) |>
+        # bold column labels
+        gt::tab_style(
+            style = gt::cell_text(weight = "bold"),
+            locations = gt::cells_column_labels()
+        )
+```
+
+
+```{r}
+#| label: tbl-no-format
+#| tbl-cap: "This is a basic caption for the table without formatting."
+#| echo: false
+cars |>
+gt::gt()
+```
+
+

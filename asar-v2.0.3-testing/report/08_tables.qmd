@@ -1,0 +1,9 @@
+# Tables {#sec-tables}
+ 
+```{r}
+#| label: tbl-no-format
+#| tbl-cap: "This is a basic caption for the table without formatting."
+#| echo: false
+cars |>
+gt::gt()
+```
