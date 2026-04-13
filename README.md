@@ -13,6 +13,16 @@ and findings.
 
 ## Current Findings 
 
+### [Apr 13, 2026]
+
+- Additional customization of a table made using `gt` will be improperly tagged. 
+This might pass automated accessibility checks, but any manual ones (performed by 
+a human) will recognize that table captions are being incorrectly labelled as a 
+table header when formatting of any kind is applied. More testing needs to be 
+done to id exactly which cases this might not happen, but erring on the side of 
+caution, I expect this behavior from any table expanded from just gt() applied 
+to data.
+
 ### [Dec 19, 2025]
 
 - Accessibility functions have been used by the NWFSC and tested; they say they are working well, but we have run into a couple issues:
