@@ -22,6 +22,8 @@ table header when formatting of any kind is applied. More testing needs to be
 done to id exactly which cases this might not happen, but erring on the side of 
 caution, I expect this behavior from any table expanded from just gt() applied 
 to data.
+- This condition happens with base Quarto v1.8.25 and asar v2.0.3
+
 
 ### [Dec 19, 2025]
 

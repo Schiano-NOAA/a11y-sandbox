@@ -7,3 +7,21 @@
 cars |>
 gt::gt()
 ```
+
+```{r}
+#| label: tbl-format-gt
+#| tbl-cap: "This is a basic caption for the table with formatting."
+#| echo: false
+cars |>
+gt::gt() |>
+gt::tab_options(
+            table.font.size = "10",
+            latex.use_longtable = TRUE,
+            latex.header_repeat = TRUE
+        ) |>
+        # bold column labels
+        gt::tab_style(
+            style = gt::cell_text(weight = "bold"),
+            locations = gt::cells_column_labels()
+        )
+```

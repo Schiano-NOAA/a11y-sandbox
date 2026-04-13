@@ -3,6 +3,7 @@
 ## Test
 
 - create blank asar script and run with basic --> complex gt table examples
+- add formatted gt as made in other test folder "gt-table-tag-wformat"
 
 ## Example code
 
@@ -19,5 +20,11 @@ figures and would not do anything other than produce unncessary warnings)
 # Result
 
 - formatting on the page is very off, table extends past page margins and off 
-the page along with it being unnccessarily wide
+the page along with it being unnecessarily wide
+- simple table is tagged as expected with caption and table separate
+- I did not include float options in this test so there is a separation in tags,
+"tables" header, and the table
+
+- a more complex example with formatting still resulted in the same issue where 
+caption is bundled in the table tag and tagged as a table header and not a caption
 
