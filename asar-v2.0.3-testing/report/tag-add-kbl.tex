@@ -1,3 +1,4 @@
+\input{accessibility.tex}
 % Options for packages loaded elsewhere
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
@@ -28,10 +29,10 @@
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
+% \IfFileExists{microtype.sty}{% use microtype if available
+%   \usepackage[]{microtype}
+%   \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+% }{}
 \makeatletter
 \@ifundefined{KOMAClassName}{% if non-KOMA class
   \IfFileExists{parskip.sty}{%
@@ -354,7 +355,7 @@
 \pdfbookmark[1]{Table of Contents}{toc}
 \renewcommand*\contentsname{Table of contents}
 {
-\hypersetup{linkcolor=}
+\hypersetup{linkcolor=.}
 \setcounter{tocdepth}{3}
 \tableofcontents
 }
@@ -490,6 +491,7 @@ assessment report. Available from
 
 \section{Tables}\label{sec-tables}
 
+\tagpdfsetup{table/header-rows={1}}
 \begin{table}
 
 \caption{\label{tbl-no-format}This is a basic caption for the table
@@ -561,6 +563,7 @@ speed & dist \\
 
 \begingroup
 
+\tagpdfsetup{table/header-rows={1}}
 \begin{longtable}{rr}
 
 \caption{\label{tbl-format-gt}This is a basic caption for the table with
@@ -627,6 +630,7 @@ formatting.}
 
 \endgroup
 
+\tagpdfsetup{table/header-rows={1}}
 \begin{longtable}[]{@{}rr@{}}
 
 \caption{\label{tbl-no-format-kbl}This is a basic caption for the table
@@ -695,6 +699,7 @@ speed & dist \\
 
 \begingroup\fontsize{10}{12}\selectfont
 
+\tagpdfsetup{table/header-rows={1}}
 \begin{longtable}[t]{rr}
 
 \caption{\label{tbl-format-kbl}This is a basic caption for the table

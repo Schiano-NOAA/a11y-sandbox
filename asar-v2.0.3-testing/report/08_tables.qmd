@@ -25,3 +25,23 @@ gt::tab_options(
             locations = gt::cells_column_labels()
         )
 ```
+
+```{r}
+#| label: tbl-no-format-kbl
+#| tbl-cap: "This is a basic caption for the table without formatting for a kable table."
+#| echo: false
+cars |>
+kableExtra::kable()
+```
+
+```{r}
+#| label: tbl-format-kbl
+#| tbl-cap: "This is a basic caption for the table with formatting for a kable table."
+#| echo: false
+cars |>
+kableExtra::kable() |>
+kableExtra::kable_styling(
+  font_size = 10,
+  latex_options = c("repeat_header")
+)
+```
